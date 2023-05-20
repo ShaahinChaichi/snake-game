@@ -13,6 +13,8 @@ snake = Snake()
 game_is_one = True
 while game_is_one:
     screen.update()
-    time.sleep(0.5)
+    time.sleep(0.2)
+
+    snake.move()
 
 screen.exitonclick()
